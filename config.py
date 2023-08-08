@@ -28,7 +28,7 @@ available_setting = {
     "group_chat_reply_prefix": "",  # 群聊时自动回复的前缀
     "group_chat_reply_suffix": "",  # 群聊时自动回复的后缀，\n 可以换行
     "group_chat_keyword": [],  # 群聊时包含该关键词则会触发机器人回复
-    "group_at_off": False,  # 是否关闭群聊时@bot的触发
+    "group_at_off": True,  # 是否关闭群聊时@bot的触发
     "group_name_white_list": ["ChatGPT测试群", "ChatGPT测试群2"],  # 开启自动回复的群名称列表
     "group_name_keyword_white_list": [],  # 开启自动回复的群名称关键词列表
     "group_chat_in_one_session": ["ChatGPT测试群"],  # 支持会话上下文共享的群名称
@@ -81,7 +81,7 @@ available_setting = {
     "baidu_translate_app_id": "",  # 百度翻译api的appid
     "baidu_translate_app_key": "",  # 百度翻译api的秘钥
     # itchat的配置
-    "hot_reload": False,  # 是否开启热重载
+    "hot_reload": True,  # 是否开启热重载
     # wechaty的配置
     "wechaty_puppet_service_token": "",  # wechaty的token
     # wechatmp的配置
@@ -101,7 +101,7 @@ available_setting = {
     # chatgpt指令自定义触发词
     "clear_memory_commands": ["#清除记忆"],  # 重置会话指令，必须以#开头
     # channel配置
-    "channel_type": "wx",  # 通道类型，支持：{wx,wxy,terminal,wechatmp,wechatmp_service,wechatcom_app}
+    "channel_type": "wx",  # 通道类型，支持：{wx, wxy ,terminal,wechatmp,wechatmp_service,wechatcom_app}
     "subscribe_msg": "",  # 订阅消息, 支持: wechatmp, wechatmp_service, wechatcom_app
     "debug": False,  # 是否开启debug模式，开启后会打印更多日志
     "appdata_dir": "",  # 数据目录
